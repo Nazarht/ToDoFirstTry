@@ -1,0 +1,26 @@
+.task-box {
+    border:1px  solid black;
+    border-radius: 2px;
+    width: 95%;
+    margin: 5px auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-box h2 {
+    font-size: 2rem;
+    margin: 5px 8px;
+    max-width: 70%;
+    max-height: fit-content;
+}
+
+.task-box p {
+    font-size: 1.3rem;
+    margin: 5px 8px;
+}
+
+.task-box button {
+    margin: 10px;
+}

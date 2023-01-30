@@ -1,0 +1,28 @@
+main {
+  height: 100vh;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 3rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-style: normal;
+  background-color: ghostwhite;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.tasks-empty {
+  font-size: 1.8rem;
+  padding: 10px;
+}

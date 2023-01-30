@@ -1,0 +1,59 @@
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-form form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-form input {
+    width: 70%;
+    margin: 5px;
+    font-size: 1.2rem;
+    padding: 3px 7px;
+}
+
+.todo-form button {
+    font-size: 1.2rem;
+    padding: 3px 7px;
+}
+
+.task-holder {
+    overflow-y: scroll;
+    overflow-x: visible;
+    max-height: 50vh;
+
+}
+
+.error-text {
+    visibility: hidden;
+    font-size: 1.5rem;
+    color: red;
+}
+
+.error-text.active {
+    visibility: visible;
+    animation: appear 1s ease-out;
+}
+
+@keyframes  appear {
+    0% {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0%);
+    }
+}
